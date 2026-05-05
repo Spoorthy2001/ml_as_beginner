@@ -1,0 +1,23 @@
+# Models — never push binary model files
+*.pkl
+*.joblib
+
+# Python garbage
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Mac garbage
+.DS_Store
+
+# Data files — never push raw datasets
+*.csv
+*.zip
+data/
+datasets/

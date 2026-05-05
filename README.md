@@ -11,9 +11,9 @@ Physics laws proven through Machine Learning — one model at a time.
 
 | # | Law | Model | R² | Status |
 |---|---|---|---|---|
-| 01 | Newton's 2nd Law — F = ma | Linear Regression | 0.9999 | ✅ Live |
-| 02 | Friction — Will it move? | Logistic Regression | TBD | 🔨 Building |
-| 03 | Bernoulli's Principle | TBD | TBD | 📅 Planned |
+| 01 | Newton's 2nd Law — F = ma | Linear Regression | 0.9999 | Live |
+| 02 | Friction — Will it move? | Logistic Regression | TBD | Building |
+| 03 | Bernoulli's Principle | TBD | TBD | Planned |
 
 ---
 
@@ -21,11 +21,11 @@ Physics laws proven through Machine Learning — one model at a time.
 
 ### Predictive Maintenance — AI4I Dataset
 Classification model to predict machine failure from sensor data.  
-Status — 🔨 In Progress
+Status — In Progress
 
 ### NASA CMAPSS — RUL Prediction
 Remaining Useful Life prediction for jet engines.  
-Status — 📅 Planned
+Status — Planned
 
 ---
 

@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 import pickle
 import numpy as np
 import joblib
@@ -20,9 +20,9 @@ class PredictInput(BaseModel):
     acceleration: float
 
 class TorqueInput(BaseModel):
-    r_m: float
-    F_N: float
-    theta_deg: float
+    r_m: float = Field(..., ge=0.1, le=1.0)
+    F_N: float = Field(..., ge=10, le=500)
+    theta_deg: float = Field(..., ge=0, le=360)
 
 # Health check
 @app.get("/")

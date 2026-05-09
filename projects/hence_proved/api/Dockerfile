@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy everything else
 COPY app.py .
-COPY model_3.pkl .
+COPY models/model_3.pkl .
 
 # Tell Docker which port to expose
 EXPOSE 8000

@@ -12,8 +12,8 @@ Physics laws proven through Machine Learning — one model at a time.
 | # | Law | Model | R² | Status |
 |---|---|---|---|---|
 | 01 | Newton's 2nd Law — F = ma | Linear Regression | 0.9999 | Live |
-| 02 | Friction — Will it move? | Logistic Regression | TBD | Building |
-| 03 | Bernoulli's Principle | TBD | TBD | Planned |
+| 02 | Torque - Rotational force | Linear Regression | 0.9997 | Building |
+| 03 | TBD | TBD | TBD | Planned |
 
 ---
 
@@ -46,6 +46,8 @@ Endpoints:
 - `GET /` — health check
 - `GET /model` — model info
 - `POST /predict` — send mass, acceleration, get force
+
+Run 
 
 ---
 
